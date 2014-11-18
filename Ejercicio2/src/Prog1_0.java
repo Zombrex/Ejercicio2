@@ -9,6 +9,9 @@ public class Prog1_0 {
 		int radio;
 		System.out.println("Introduce el radio de la esfera");
 		radio = leerradio.nextInt();
+		double area = (Math.PI) * (Math.pow(radio, 2)); 
+		System.out.println("El área de la esfera cuyo radio "+radio+" es "+area);
+		System.out.println("Finalizado Version 2"); 
 
 	}
 
